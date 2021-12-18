@@ -28,7 +28,7 @@ public class HomeWork {
         }
     }
 
-    private static boolean checkIsLeapYear(int year) {
+    static boolean checkIsLeapYear(int year) {
         boolean isLeapYear = false;
 
         if(year % 4 == 0) {
